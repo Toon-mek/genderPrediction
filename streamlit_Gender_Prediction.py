@@ -26,7 +26,7 @@ def extract_gender_features(name):
     return features
 
 # Load the trained Naive Bayes classifier
-bayes = load('gender_prediction.joblib')
+bayes = load(' gender_prediction.joblib')
 
 # Streamlit app
 def main():
